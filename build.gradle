@@ -35,6 +35,10 @@ compileTestKotlin {
     }
 }
 
+bootRun {
+    standardInput = System.in
+}
+
 repositories {
     mavenCentral()
     maven { url "https://repo.spring.io/milestone" }
