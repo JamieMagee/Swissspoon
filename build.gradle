@@ -47,7 +47,7 @@ repositories {
 
 dependencies {
     compile 'io.github.microutils:kotlin-logging:1.6.10'
-    implementation('org.springframework.shell:spring-shell-starter:2.0.0.RELEASE')
+    implementation('org.springframework.shell:spring-shell-starter:2.0.1.RELEASE')
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation('org.springframework.boot:spring-boot-starter-test')
