@@ -13,9 +13,11 @@ before_deploy:
   - git tag -f $tag
 deploy:
   provider: releases
+  name: SNAPSHOT
   api_key:
     secure: Wo69AQKeVLekIp3KkZ8xx/4O5+lyXSLG3fBrUAhbWi7uySlGugO4CUbSeKi/OPEoauRe+3RFZ3f3jEcLb4JItKOVdJaeJVrldQhq/oYXB3qFy9MJlzNinI8lzdmiEA0K8fVZn42znRw3hHBRJxF0iV0d5NpItf4kkm7OZB5XsbAl/ALlGaUlRX8oTdkwtqAF1w0LUqa7aX/03FxF04AT6ZT0UpK6/8+q4t6xc3ilXxJcbKuK3LKu1Kwl/b5LXP59TFc2O81yAUDlL5Q4zot4+SMVUmEeMj0C6Vu7obmhNFToEVcIfoHz8DCyyB7XQjMie2vIxIJ4ET3VwkC3PRIGmwZXYkTCEnUPUdn7C4rsWjRcpiAxQCevZUir1uiD7qesIgEKt8tkx7I9f5LdMJX44DuGBcDAAgqhQ6Do0MvmGwo5DU9hcC4RHtZI4ZShcrOapqI32yva0Ztkvs/e72t0ua6HlLaY8BePvDqzZFAy9xruH+0ed2SHLNr7NZ4ud1olHcG1VWYPOVo2o+of6l4Of5Antaoi0ecbXGZs/hd7SvmkC5EF7qPeOWT+hUEz8EMaRH68AfqR0EE4bsXTkLmXQYbPE85J13yFHATsN5MEJd+kugFb6cr1G5mrFdgq+NVjZG+1kOShJWBYbA+m5AgUejqgx5yX+8MLXT9K7xriW2M=
   file: "./build/libs/swissspoon-0.0.1-SNAPSHOT.jar"
+  skip_cleanup: true
   on:
     repo: JamieMagee/swissspoon
     branch: master
