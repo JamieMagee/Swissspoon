@@ -1,8 +1,0 @@
-dist: xenial
-
-jdk:
-  - openjdk8
-  - openjdk11
-  - openjdk-ea
-
-script: ./gradlew bootJar

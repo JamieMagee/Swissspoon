@@ -10,7 +10,7 @@ before_deploy:
   - git config --local user.email "jamie.magee@gmail.com"
   - filename=$(basename $(find  build/libs/ -name *.jar))
   - tag=${filename::-4}
-  - git tag $tag
+  - git tag -f $tag
 deploy:
   provider: releases
   api_key:
