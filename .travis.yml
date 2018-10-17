@@ -26,3 +26,5 @@ deploy:
     repo: JamieMagee/swissspoon
     branch: master
     jdk: openjdk11
+notifications:
+  email: false
