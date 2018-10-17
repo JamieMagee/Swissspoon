@@ -18,7 +18,7 @@ To compile to a jar and run
 
 ```shell
 ./gradlew bootJar
-java -jar build/libs/swissspoon-0.0.1-SNAPSHOT.jar
+java -jar build/libs/swissspoon-SNAPSHOT.jar
 ```
 
 # License
