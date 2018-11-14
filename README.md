@@ -6,6 +6,8 @@
 
 A sample Spring Shell application
 
+[![asciicast](https://asciinema.org/a/tDS1MaOjPRe5hN2pehpHWHYiw.svg)](https://asciinema.org/a/tDS1MaOjPRe5hN2pehpHWHYiw)
+
 # Usage
 
 To run swissspoon from source
